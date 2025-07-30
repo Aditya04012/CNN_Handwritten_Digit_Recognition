@@ -11,10 +11,8 @@ This project aims to classify handwritten digits (0–9) using Convolutional Neu
 ```
 CNN_Handwritten_Digit_Recognition/
 │
-├── ann_model.ipynb                 # ANN architecture
 ├── lenet_model.ipynb               # LeNet-5 architecture
 ├── mini_VGGNet_architecture.ipynb  # MiniVGGNet architecture
-├── images/                         # Sample output images (optional)
 ├── README.md                       # Project documentation
 ```
 
@@ -46,6 +44,8 @@ from tensorflow.keras.datasets import mnist
 - Two pooling layers
 - Fully connected dense layers
 - ReLU and softmax activations
+📌 View full architecture here:
+👉 [mini_VGGNet_architecture.ipynb](https://github.com/Aditya04012/CNN_Handwritten_Digit_Recognition/blob/main/LeNet_5_architecture.ipynb)
 
 ### 3. MiniVGGNet
 - Multiple stacked Conv2D layers
@@ -113,7 +113,7 @@ jupyter notebook
 ## 📌 Key Results
 
 - **MiniVGGNet** outperformed all other models, achieving a **99.23%** test accuracy.
-- Use of **Batch Normalization**, **Dropout**, and **MaxPooling** improved generalization.
+- Use of **Dropout**, and **MaxPooling** improved generalization.
 - All models were evaluated on the MNIST test set.
 
 ---
