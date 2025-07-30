@@ -44,8 +44,9 @@ from tensorflow.keras.datasets import mnist
 - Two pooling layers
 - Fully connected dense layers
 - ReLU and softmax activations
+- 
 📌 View full architecture here:
-👉 [mini_VGGNet_architecture.ipynb](https://github.com/Aditya04012/CNN_Handwritten_Digit_Recognition/blob/main/LeNet_5_architecture.ipynb)
+👉 [LeNet-5_architecture.ipynb](https://github.com/Aditya04012/CNN_Handwritten_Digit_Recognition/blob/main/LeNet_5_architecture.ipynb)
 
 ### 3. MiniVGGNet
 - Multiple stacked Conv2D layers
